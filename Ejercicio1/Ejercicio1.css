@@ -1,0 +1,26 @@
+body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    height: 100vh;
+    margin: auto;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: solid 2px #dd7b17;
+    border-radius: 12px;
+}
+.tabla {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.tabla th, td{
+    border: 1px solid black;
+}
