@@ -5,10 +5,13 @@ function gestionarFicheroXML(xmlDoc){
 	let autores = xmlDoc.getElementsByTagName("autor");
 	let precios = xmlDoc.getElementsByTagName("precio");
 	for (i=0;i<titulos.length;i++){
-		texto += "<tr>";
+		let etiqueta = "\"f" + i + "\""
+		texto += "<tr id=" + etiqueta + "\">";
 		texto += "<td>" + titulos[i].childNodes[0].nodeValue + "</td>";
 		texto += "<td>" + autores[i].childNodes[0].nodeValue + "</td>";
 		texto += "</tr>";
+		if (precio[i].childNodes[0].nodeValue < 25)
+		   document.getElementById(etiqueta).style.color = "#ff0000";
 	}
 	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
 
