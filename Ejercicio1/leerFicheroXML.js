@@ -6,10 +6,10 @@ function gestionarFicheroXML(xmlDoc){
 	let precios = xmlDoc.getElementsByTagName("precio");
 	let etiqueta = "";
 	for (i=0;i<titulos.length;i++){
-		if (precios[i].childNodes[0].nodeValue < 25){
+		if (precios[i].childNodes[0].nodeValue < 25)
 			etiqueta = "menor25";
-		}
-		console.log(etiqueta);
+		else
+			etiqueta = "nomenor25";
 		texto += "<tr class=\"" + etiqueta + "\">";
 		texto += "<td>" + titulos[i].childNodes[0].nodeValue + "</td>";
 		texto += "<td>" + autores[i].childNodes[0].nodeValue + "</td>";
