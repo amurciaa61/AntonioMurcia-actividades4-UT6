@@ -2,10 +2,10 @@ function gestionarFicheroXML(xmlDoc){
 	alert("llego1");
 	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	let texto = "<table><tr><th>Titulo</th><th>Autor</th></tr>";
-	let titulos = xmlDoc.querySelectorAll('titulo').textContent;
+	let titulos = xmlDoc.getElementsByTagName('titulo').textContent;
 	alert("llego2");
-	let autores = xmlDoc.querySelectorAll('autor').textContent;
-	let precios = xmlDoc.querySelectorAll('precio').textContent;
+	let autores = xmlDoc.getElementsByTagName('autor').textContent;
+	let precios = xmlDoc.getElementsByTagName('precio').textContent;
 	for (i=0;i<titulos.length;i++){
 		texto = texto + "<tr><td>" + titulos[i] + "</td></tr>";
 	}
