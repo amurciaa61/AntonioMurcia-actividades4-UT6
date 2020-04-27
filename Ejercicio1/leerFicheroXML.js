@@ -1,13 +1,13 @@
 function gestionarFicheroXML(xmlDoc){
-	alert("llego1");
+	alert("llego2");
 	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	let texto = "<table><tr><th>Titulo</th><th>Autor</th></tr>";
 	let titulos = xmlDoc.getElementsByTagName('titulo');
-	alert("llego2");
+	alert("llego3");
 	let autores = xmlDoc.getElementsByTagName('autor');
 	let precios = xmlDoc.getElementsByTagName('precio');
 	for (i=0;i<titulos.length;i++){
-		texto = texto + "<tr><td>" + titulos[i] + "</td></tr>";
+		texto = texto + "<tr><td>" + titulos[i].nodeValue + "</td></tr>";
 	}
 	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
 
