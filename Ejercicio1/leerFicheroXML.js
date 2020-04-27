@@ -2,7 +2,7 @@ function gestionarFicheroXML(xmlDoc){
 	alert("llego1");
 	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	let texto = "<table><tr><th>Titulo</th><th>Autor</th></tr>";
-	let titulos = xmlDoc.getElementsByTagName('titulo').textContent;
+	let titulos = xmlDoc.getElementsByTagName('titulo').innerHTML;
 	alert("llego2");
 	let autores = xmlDoc.getElementsByTagName('autor').textContent;
 	let precios = xmlDoc.getElementsByTagName('precio').textContent;
