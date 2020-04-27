@@ -24,3 +24,6 @@ body {
 .tabla th, td{
     border: 1px solid black;
 }
+.menor25{
+    background: green;
+}
