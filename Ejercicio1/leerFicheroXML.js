@@ -3,6 +3,7 @@ function gestionarFicheroXML(xmlDoc){
 	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	let texto = "<table><tr><th>Titulo</th><th>Autor</th></tr>";
 	let titulos = xmlDoc.querySelectorAll('titulo').textContent;
+	alert("llego2");
 	let autores = xmlDoc.querySelectorAll('autor').textContent;
 	let precios = xmlDoc.querySelectorAll('precio').textContent;
 	for (i=0;i<titulos.length;i++){
