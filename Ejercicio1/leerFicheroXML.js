@@ -1,6 +1,6 @@
 function gestionarFicheroXML(xmlDoc){
 	alert("llego");
-	//alert(xmlDoc.getElementsByTagName('alumno')[0].firstChild.nodeValue)
+	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
 
 	//document.getElementById('ficheroXML').innerHTML += "<b>" + xmlDoc.querySelector('alumno:nth-child(2)').textContent + "</b>"
