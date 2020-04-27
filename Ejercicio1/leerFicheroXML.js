@@ -5,9 +5,9 @@ function gestionarFicheroXML(xmlDoc){
 	let autores = xmlDoc.getElementsByTagName("autor");
 	let precios = xmlDoc.getElementsByTagName("precio");
 	for (i=0;i<titulos.length;i++){
-		let etiqueta = "\"f" + i + "\""
+		let etiqueta = "f" + i;
 		console.log(etiqueta);
-		texto += "<tr id=" + etiqueta + ">";
+		texto += "<tr id=\"" + etiqueta + "\">";
 		texto += "<td>" + titulos[i].childNodes[0].nodeValue + "</td>";
 		texto += "<td>" + autores[i].childNodes[0].nodeValue + "</td>";
 		texto += "</tr>";
