@@ -4,9 +4,11 @@ function gestionarFicheroXML(xmlDoc){
 	let titulos = xmlDoc.getElementsByTagName("titulo");
 	let autores = xmlDoc.getElementsByTagName("autor");
 	let precios = xmlDoc.getElementsByTagName("precio");
+	let etiqueta = "";
 	for (i=0;i<titulos.length;i++){
-		if (precios[i].childNodes[0].nodeValue < 25)
-		    let etiqueta = "menor25";
+		if (precios[i].childNodes[0].nodeValue < 25){
+			etiqueta = "menor25";
+		}
 		console.log(etiqueta);
 		texto += "<tr class=\"" + etiqueta + "\">";
 		texto += "<td>" + titulos[i].childNodes[0].nodeValue + "</td>";
