@@ -15,16 +15,9 @@ function gestionarFicheroXML(xmlDoc){
 		texto += "<td>" + autores[i].childNodes[0].nodeValue + "</td>";
 		texto += "</tr>";
 	}
-	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
-
 	texto += "</table>";
-	document.getElementById('tablalibros').innerHTML = texto;
-	//document.getElementById('tablalibros').innerHTML += "<b>" + xmlDoc.querySelector('alumno:nth-child(2)').textContent + "</b>"
-	
+	document.getElementById('tablalibros').innerHTML = texto;	
 }
-
-//document.querySelector("div:nth-child(1)").addEventListener("click",()=>{
-//	document.querySelector("#botonXML").addEventListener("click",()=>{
 window.addEventListener("load", function(event) {
     let xmlDoc = loadLDocA("libros.xml","xml");
 })

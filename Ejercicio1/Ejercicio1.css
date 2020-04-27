@@ -13,7 +13,8 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-    border: solid 2px #dd7b17;
+    border: solid 2px #053fba;
+    background: linear-gradient(to bottom right, #0243BB,#0588FE,#24B4FD,lightblue);
     border-radius: 12px;
 }
 .tabla {
