@@ -12,6 +12,7 @@ function gestionarFicheroXML(xmlDoc){
 	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
 
 	texto = texto + "</table>";
+	document.getElementById('tablalibros').innerHTML = texto;
 	//document.getElementById('tablalibros').innerHTML += "<b>" + xmlDoc.querySelector('alumno:nth-child(2)').textContent + "</b>"
 	
 }
