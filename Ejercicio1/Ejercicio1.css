@@ -25,6 +25,9 @@ body {
 .tabla th, td{
     border: 1px solid black;
 }
+th {font-size: larger;
+
+}
 .menor25{
     background: green;
 }
