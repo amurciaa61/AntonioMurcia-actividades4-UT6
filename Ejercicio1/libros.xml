@@ -4,7 +4,7 @@
 		<nombre>80 Mundos</nombre>
 		<libro> 
 			<ISBN>84-350-0202-0</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - La Comunidad del Anillo</titulo> 
+			<titulo>El Señor de los Anillos - La Comunidad del Anillo</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -16,7 +16,7 @@
 		</libro>
 		<libro> 
 			<ISBN>84-350-0202-5</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - Las dos torres</titulo> 
+			<titulo>El Señor de los Anillos - Las dos torres</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -28,7 +28,7 @@
 		</libro>
 		<libro> 
 			<ISBN>84-350-0202-9</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - El retorno del rey</titulo> 
+			<titulo>El Señor de los Anillos - El retorno del rey</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -55,7 +55,7 @@
 		</libro>
 		<libro> 
 			<ISBN>84-350-0203-2</ISBN> 
-			<titulo>Harry Potter - La cÃ¡mara secreta</titulo> 
+			<titulo>Harry Potter - La cámara secreta</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>J.K.Rowling</autor>

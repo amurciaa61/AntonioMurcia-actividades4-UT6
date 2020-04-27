@@ -1,5 +1,4 @@
 function gestionarFicheroXML(xmlDoc){
-	alert(xmlDoc.getElementsByTagName('titulo')[0].firstChild.nodeValue)
 	let texto = "<table><tr><th>Titulo</th><th>Autor</th></tr>";
 	let titulos = xmlDoc.getElementsByTagName("titulo");
 	let autores = xmlDoc.getElementsByTagName("autor");
