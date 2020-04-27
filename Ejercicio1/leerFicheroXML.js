@@ -7,7 +7,7 @@ function gestionarFicheroXML(xmlDoc){
 	let autores = xmlDoc.getElementsByTagName('autor');
 	let precios = xmlDoc.getElementsByTagName('precio');
 	for (i=0;i<titulos.length;i++){
-		texto = texto + "<tr><td>" + titulos[i].nodeValue + "</td></tr>";
+		texto = texto + "<tr><td>" + titulos[i].childNodes[0].nodeValue + "</td></tr>";
 	}
 	//alert(xmlDoc.getElementsByTagName('alumnos')[0].childNodes[1].firstChild.nodeValue)
 
