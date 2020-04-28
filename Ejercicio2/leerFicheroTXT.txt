@@ -6,3 +6,4 @@ Receptor;Ayer no pude salir por la tormenta
 Emisor;Tormenta, ¿donde?
 Receptor;En Alicante
 Emisor;Ah!, pues en Valencia hubo sol todo el día
+Receptor;¡que bien!
