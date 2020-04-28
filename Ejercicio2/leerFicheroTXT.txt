@@ -7,3 +7,8 @@ Emisor;Tormenta, ¿donde?
 Receptor;En Alicante
 Emisor;Ah!, pues en Valencia hubo sol todo el día
 Receptor;¡que bien!
+Emisor;Crees que habrá playa este verano?
+Receptor;Pues, espero que sí
+Emisor;Esto es una crueldad !!!
+Receptor;Cierto, cierto
+Emisor;Una cosa es que te guste estar en casa y otra distinta es que sea una obligación
