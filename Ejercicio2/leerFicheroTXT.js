@@ -5,9 +5,9 @@ function gestionarFicheroTXT(txtDoc){
     for (let i = 0; i < registros.length; i++) 
     { 
         let campos = registros[i].split(";");
-        contenido += "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>";
-        document.getElementById('ficheroTXT').innerHTML = contenido;
+        contenido += "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>"; 
     }
+    document.getElementById('ficheroTXT').innerHTML = contenido;
 }
 let puntero = 0;
 let intervalo = setInterval(leerfichero, 3000);
