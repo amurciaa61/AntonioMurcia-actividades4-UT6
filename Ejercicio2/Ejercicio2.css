@@ -26,8 +26,7 @@ body {
     background: #dcf8c6;
     /*text-align: right;*/
     padding-left: 5px;
-    margin: 1px 0px 3px 0px;
-    margin-left: 18vw;
+    margin: 1px 0px 3px 18vw;
     width: 17vw;
     border-radius: 5px;
 }
