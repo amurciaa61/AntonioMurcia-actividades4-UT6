@@ -1,9 +1,6 @@
 function gestionarFicheroTXT(txtDoc){
-    if (puntero == undefined)
-        puntero = 0;
     let contador = puntero;
     let lineas = 0;
-    console.log(puntero);
     let registros = txtDoc.split(/\r?\n|\r/);
     let capaContenedora = document.querySelector(".contenedor");
     for (let i = contador; i < registros.length; i++) 
@@ -20,13 +17,11 @@ function gestionarFicheroTXT(txtDoc){
        capaContenedora.appendChild(parrafo);
        lineas++
     }
-    console.log(lineas);
     if (lineas > 0)
-        puntero = lineas
+        puntero += lineas
 }
 let intervalo = setInterval(leerfichero, 10000);
 function leerfichero() {
-    console.log(puntero);
     //let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
     loadLDocA("leerFicheroTXT.txt","txt");
 }
