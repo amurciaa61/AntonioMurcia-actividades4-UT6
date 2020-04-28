@@ -12,3 +12,10 @@ Receptor;Pues, espero que sí
 Emisor;Esto es una crueldad !!!
 Receptor;Cierto, cierto
 Emisor;Una cosa es que te guste estar en casa y otra distinta es que sea una obligación
+Receptor;linea1
+Emisor;linea2
+Receptor;linea3
+Emisor;linea4
+Emisor;Por donde nos quedamos en la conversación
+Receptor;no me acuerdo de nada
+Emisor;Lo dices en serio, yo creo que andas mal de memoria, pero mal mal...
