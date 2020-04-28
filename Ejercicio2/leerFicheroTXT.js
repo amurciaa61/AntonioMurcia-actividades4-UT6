@@ -1,4 +1,6 @@
 function gestionarFicheroTXT(txtDoc){
+    if (puntero == undefined)
+        puntero = 0;
     let contador = puntero;
     let lineas = 0;
     console.log(puntero);
@@ -27,4 +29,3 @@ function leerfichero() {
     //let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
     loadLDocA("leerFicheroTXT.txt","txt");
 }
-let puntero = 0;
