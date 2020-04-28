@@ -19,3 +19,7 @@ Emisor;linea4
 Emisor;Por donde nos quedamos en la conversación
 Receptor;no me acuerdo de nada
 Emisor;Lo dices en serio, yo creo que andas mal de memoria, pero mal mal...
+Emisor;Escucha, ¿sabes como solucione lo del fichero de mensajes?
+Receptor;no, cuentame
+Emisor;con una puñetera variable global
+Receptor;anda ya, si eso esta prohibido
