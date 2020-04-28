@@ -2,7 +2,7 @@ function gestionarFicheroTXT(txtDoc){
     let contador = 0;
     let registros = txtDoc.split(/\r?\n|\r/);
     let capaContenedora = document.querySelector(".contenedor");
-    for (let i = 0; i < registros.length; i++) 
+    for (let i = contador; i < registros.length; i++) 
     { 
        let campos = registros[i].split(";");
        // Creo el parrafo, su texto y lo añado a la capa
@@ -17,7 +17,8 @@ function gestionarFicheroTXT(txtDoc){
     }
 }
 let puntero = 0;
-let intervalo = setInterval(leerfichero, 3000);
+let intervalo = setInterval(leerfichero, 10000);
 function leerfichero() {
-    let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
+    //let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
+    loadLDocA("leerFicheroTXT.txt","txt");
 }
