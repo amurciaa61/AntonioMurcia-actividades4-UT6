@@ -27,3 +27,4 @@ function leerfichero() {
     //let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
     loadLDocA("leerFicheroTXT.txt","txt");
 }
+let puntero = 0;
