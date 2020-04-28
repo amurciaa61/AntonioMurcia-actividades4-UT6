@@ -19,10 +19,13 @@ body {
 }
 .Emisor {
     text-align: left;
+    padding-right: 5px;
     width: 17vw;
 }
 .Receptor {
     background: #00e676;
     text-align: right;
+    padding-right: 5px;
+    margin-left: 19vw;
     width: 17vw;
 }
