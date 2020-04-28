@@ -9,9 +9,9 @@ body {
 }
 .contenedor {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+  /*  justify-content: center;
+    align-items: center;*/
     height: auto;
     border: solid 2px #053fba;
     background: linear-gradient(to bottom right, #0243BB,#0588FE,#24B4FD,lightblue);
