@@ -21,7 +21,8 @@ function gestionarFicheroTXT(txtDoc){
        lineas++
     }
     console.log(lineas);
-    puntero = lineas
+    if (lineas > 0)
+        puntero = lineas
 }
 let intervalo = setInterval(leerfichero, 10000);
 function leerfichero() {
