@@ -1,4 +1,4 @@
-function loadLDocA(fichero,tipo,lineas)
+function loadLDocA(fichero,tipo)
 {
     let http = new XMLHttpRequest(); //Se crea petición al servidor
     http.open("GET",fichero,true); //Se pide procesar el fichero. Continua la ejecución hasta recibir la respuesta
@@ -9,6 +9,6 @@ function loadLDocA(fichero,tipo,lineas)
             if(tipo == "xml")
                 gestionarFicheroXML(http.responseXML)
             else 
-                return lineas = gestionarFicheroTXT(http.responseText,lineas);
+                gestionarFicheroTXT(http.responseText);
     }})
 }
