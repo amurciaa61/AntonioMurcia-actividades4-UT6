@@ -17,15 +17,16 @@ body {
 .Emisor {
     background: #ffffff;
     text-align: left;
-    margin-left: 5px;
+    margin: 3px 0px 1px 3px;
     padding-left: 5px;
     width: 17vw;
     border-radius: 5px;
 }
 .Receptor {
     background: #dcf8c6;
-    text-align: right;
-    padding-right: 5px;
+    /*text-align: right;*/
+    padding-left: 5px;
+    margin: 1px 0px 3px 0px;
     margin-left: 18vw;
     width: 17vw;
     border-radius: 5px;
