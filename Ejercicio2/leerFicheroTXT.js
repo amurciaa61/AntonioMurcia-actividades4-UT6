@@ -1,5 +1,6 @@
 function gestionarFicheroTXT(txtDoc,lineas){
     let contador = lineas;
+    console.log(lineas);
     let registros = txtDoc.split(/\r?\n|\r/);
     let capaContenedora = document.querySelector(".contenedor");
     for (let i = contador; i < registros.length; i++) 
@@ -16,6 +17,7 @@ function gestionarFicheroTXT(txtDoc,lineas){
        capaContenedora.appendChild(parrafo);
        lineas++
     }
+    console.log(lineas);
     return lineas;
 }
 let puntero = 0;
