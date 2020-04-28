@@ -1,5 +1,5 @@
-function gestionarFicheroTXT(txtDoc){
-    let contador = 0;
+function gestionarFicheroTXT(txtDoc,lineas){
+    let contador = lineas;
     let registros = txtDoc.split(/\r?\n|\r/);
     let capaContenedora = document.querySelector(".contenedor");
     for (let i = contador; i < registros.length; i++) 
@@ -14,11 +14,13 @@ function gestionarFicheroTXT(txtDoc){
        att.value = campos[0];                          
        parrafo.setAttributeNode(att);  
        capaContenedora.appendChild(parrafo);
+       lineas++
     }
+    return lineas;
 }
 let puntero = 0;
 let intervalo = setInterval(leerfichero, 10000);
 function leerfichero() {
     //let txtDoc = loadLDocA("leerFicheroTXT.txt","txt");
-    loadLDocA("leerFicheroTXT.txt","txt");
+    puntero = loadLDocA("leerFicheroTXT.txt","txt",puntero);
 }
