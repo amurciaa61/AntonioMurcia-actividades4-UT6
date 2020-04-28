@@ -8,9 +8,9 @@ body {
     margin: auto;
 }
 .contenedor {
-    display: flex;
+   /* display: flex;
     flex-direction: row;
-  /*  justify-content: center;
+    justify-content: center;
     align-items: center;*/
     height: auto;
     border: solid 2px #053fba;
