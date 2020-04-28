@@ -1,4 +1,2 @@
-Receptor;linea1
-Emisor;linea2
-Receptor;linea3
-Emisor;linea4
+Receptor;linea5
+Emisor;linea6

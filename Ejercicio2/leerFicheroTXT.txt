@@ -15,4 +15,5 @@ Emisor;Una cosa es que te guste estar en casa y otra distinta es que sea una obl
 Receptor;linea1
 Emisor;linea2
 Receptor;linea3
-Emisor;linea4
+Emisor;linea4Receptor;linea5
+Emisor;linea6
