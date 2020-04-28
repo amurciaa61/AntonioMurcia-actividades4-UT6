@@ -9,20 +9,24 @@ body {
 }
 .contenedor {
     height: auto;
-    border: solid 2px #053fba;
-    background: linear-gradient(to bottom right, #0243BB,#0588FE,#24B4FD,lightblue);
+    border: solid 2px gray;
+    background: linear-gradient(to bottom right,#E5DDD5,#F0F0F0,#FFFFFF);
     border-radius: 12px;
     width: 36vw;
 }
 .Emisor {
+    background: #ffffff;
     text-align: left;
+    margin-left: 5px;
     padding-left: 5px;
     width: 17vw;
+    border-radius: 5px;
 }
 .Receptor {
-    background: #00e676;
+    background: #dcf8c6;
     text-align: right;
     padding-right: 5px;
     margin-left: 18vw;
     width: 17vw;
+    border-radius: 5px;
 }
