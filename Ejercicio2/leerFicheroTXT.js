@@ -5,7 +5,7 @@ function gestionarFicheroTXT(txtDoc){
     { 
         let contenido = "";
         let campos = registros[i].split(";");
-        contenido = "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>";
+        contenido += "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>";
         document.getElementById('ficheroTXT').innerHTML = contenido;
     }
 }
