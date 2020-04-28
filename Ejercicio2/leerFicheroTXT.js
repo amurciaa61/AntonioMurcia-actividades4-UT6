@@ -5,8 +5,8 @@ function gestionarFicheroTXT(txtDoc){
     let capaContenedora = document.querySelector(".contenedor");
     for (let i = 0; i < registros.length; i++) 
     { 
-       // let campos = registros[i].split(";");
-       contenido += "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>"; 
+       let campos = registros[i].split(";");
+       //contenido += "<p class=\"" + campos[0]+ "\">" + campos[1] + "</p>"; 
        // Creo el parrafo, su texto y lo añado a la capa
        let parrafo = document.createElement("p");
        let textoparrafo = document.createTextNode(campos[1]);
