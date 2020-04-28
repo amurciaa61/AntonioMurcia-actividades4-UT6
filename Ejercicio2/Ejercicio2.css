@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35vw;
+    width: 36vw;
     height: 100vh;
     margin: auto;
 }
@@ -19,8 +19,10 @@ body {
 }
 .Emisor {
     text-align: left;
+    width: 17vw;
 }
 .Receptor {
     background: #00e676;
     text-align: right;
+    width: 17vw;
 }
