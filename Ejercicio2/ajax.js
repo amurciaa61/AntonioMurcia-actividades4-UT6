@@ -9,6 +9,6 @@ function loadLDocA(fichero,tipo,lineas)
             if(tipo == "xml")
                 gestionarFicheroXML(http.responseXML)
             else 
-                lineas = gestionarFicheroTXT(http.responseText,lineas);
+                return lineas = gestionarFicheroTXT(http.responseText,lineas);
     }})
 }
