@@ -12,9 +12,3 @@ Receptor;Pues, espero que sí
 Emisor;Esto es una crueldad !!!
 Receptor;Cierto, cierto
 Emisor;Una cosa es que te guste estar en casa y otra distinta es que sea una obligación
-Receptor;linea1
-Emisor;linea2
-Receptor;linea3
-Emisor;linea4
-Receptor;linea5
-Emisor;linea6

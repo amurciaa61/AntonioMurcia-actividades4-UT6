@@ -1,3 +1,4 @@
+let puntero = 0;
 function loadLDocA(fichero,tipo)
 {
     let http = new XMLHttpRequest(); //Se crea petición al servidor
